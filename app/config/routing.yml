@@ -1,0 +1,11 @@
+produit:
+    resource: "@ProduitBundle/Resources/config/routing.yml"
+    prefix:   /
+
+livraison:
+    resource: "@livraisonBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
